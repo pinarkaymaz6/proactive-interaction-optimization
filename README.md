@@ -20,4 +20,8 @@ Ada is a mood tracking conversational agent.
 4. Set webhooks
     - Set webhook for the bot using the Telegram Bot API token and [setWebhook](https://core.telegram.org/bots/api#setwebhook) feature. The `url` parameter should be the API endpoint of the _main_ function. From now on, all the incoming messages arrives at the function _main_
     - Set fulfilment webhook. Navigate to DialogFlow and then _Fulfillment_. Select and intent and _Enable webhook call_. Enable webhook and insert the API endpoint of the _fulfillment_ cloud function. Lastly, go to _Intents_ and select the intents that'll need the fulfillment and _Enable webhook call for this intent_. From now on, any utterance from the user with that intent will arrive at the cloud function _fulfillment_. 
-
+5. Make sure to insert credentials below into code
+    - OpenWeather API Key
+    - Telegram Token
+    - MongoDB connection string
+    - Google Cloud Pleatform - Service Account Credentials Info
