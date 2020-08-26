@@ -1,0 +1,6 @@
+dialogflow
+requests==2.21.0
+google-auth
+pymongo[tls,srv]
+protobuf
+google-cloud-scheduler
